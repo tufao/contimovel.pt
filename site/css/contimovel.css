@@ -1,0 +1,241 @@
+﻿body
+{
+	margin-top: 0px;
+	background-color: #777777;
+	background-image: url(../images/bgBody1.png);
+	background-repeat: repeat;
+}
+
+.topTitle
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.7em;
+    COLOR: white;
+    LINE-HEIGHT: 1.5em;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left
+}
+
+table
+{
+	border-collapse: collapse;
+	border-width: 0px;
+}
+
+table.outerTable
+{
+	width: 690px;
+}
+
+table.mainTable
+{
+	width: 685px;
+	background-color:#FFFFFF;	
+}
+table.headerTable
+{
+	width:655px;
+	height:90px;
+}
+
+table.bodyTable
+{
+	width:655px;
+}
+.linksLeftTable
+{
+	width:160px;
+	background-image: url(../images/flashHeaderBGpng.png);
+	background-repeat: no-repeat;
+	background-position:bottom;
+}
+table.contentTable
+{
+	width:440px;
+}
+th
+{
+    text-align:left;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.7em;
+    COLOR: #666666;
+    LINE-HEIGHT: 1.5em;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: justify
+}
+tbody.tbodyCollapse
+{
+    text-align:left;
+    vertical-align:bottom;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.6em;
+    COLOR: #666666;
+    LINE-HEIGHT: 1.5em;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left;
+    
+}
+td.btnTop
+{
+    /*
+	background-color: #ffffff;
+	background-image: url(images/bgBody.png);
+    */
+	width:30px;
+	height:90px;			
+}
+td.indent
+{
+    width:auto;
+    width:inherit;
+    text-indent:20;
+}
+
+
+dl{margin-top:0;}
+dt{font-weight:bolder;}
+img{border:0px;}
+.pluMinus{ vertical-align:middle;}
+img.logo
+{
+	width:545px;	
+}
+img.topRight
+{
+	height:90px;
+}
+	
+.textsmall
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.55em;
+    COLOR: #858585;
+    FONT-FAMILY: Verdana
+}
+.textsmall A
+{
+    COLOR: #858585;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.textsmall A:hover
+{
+    COLOR: #4e4e4e;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: underline
+}
+.texto
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.6em;
+    COLOR: #666666;
+    LINE-HEIGHT: 1.5em;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left
+}
+.texto2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.7em;
+    COLOR: darkblue;
+    LINE-HEIGHT: 1.5em;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left
+}
+.textoTitle
+{
+	font-family: Verdana;
+	font-weight:bold;
+	font-size:1em;	
+	color:#800000;
+}
+.cssLink{cursor: pointer}
+		
+.leftMenu{font-size:0.8em; font-family: Arial; vertical-align:bottom}
+
+.leftMenu a{text-decoration: none; color:#666666}
+.leftMenu a:active {text-decoration: none; color:#444444}
+.leftMenu a:hover { font-weight:bold; color:#444444}
+.leftMenuLine{width:160px; vertical-align:top}
+.texto A
+{
+    COLOR: #666666;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.texto A:hover
+{
+    COLOR: #666666;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: underline
+}
+.verdana_blue
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.6em;
+    COLOR: #316f9a;
+    FONT-FAMILY: Verdana
+}
+.verdana_blue A
+{
+    COLOR: #316f9a;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.verdana_blue A:hover
+{
+    COLOR: #316f9a;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: underline
+}
+.text_castanho
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.6em;
+    COLOR: #800000;
+    FONT-FAMILY: Verdana
+}
+.text_castanho A
+{
+    COLOR: #800000;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.text_castanho A:hover
+{
+    COLOR: #800000;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: underline
+}
+.textoLegenda
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.6em;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana
+}
+.FormInput
+{
+    BORDER-RIGHT: #dcdcdc 1px solid;
+    BORDER-TOP: #dcdcdc 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.6em;
+    BORDER-LEFT: #dcdcdc 1px solid;
+    WIDTH: 130px;
+    COLOR: #666666;
+    BORDER-BOTTOM: #dcdcdc 1px solid;
+    FONT-FAMILY: Verdana
+}
+.teste
+{
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: white 1px solid;
+    BORDER-LEFT: white 1px solid;
+    BORDER-BOTTOM: white 1px solid;
+    HEIGHT: 25px
+}
+.currentPage
+{
+    color:#005B98;
+    font-weight:bold;
+}
