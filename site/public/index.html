@@ -5,15 +5,16 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Contabilidade, contabilidades, contábil, contabili, contabilista, contabilis, balanço, impostos, gabinetes de contabilidade, contabilidade financeira
 , fiscalidade, imobilizado, empresas de contabilidade, processamento de salários, Consultoria, Fiscalidade, Recursos Humanos, Empresários em nome individual, Sociedades comerciais, Reporting e demonstrações financeiras, Análise e controlo de património">
-    <meta name="description" content="Serviços de contabilidade: Contabilidade geral e analítica; Reporting e demonstrações financeiras; Análise e controlo de património. Serviços de Consultoria: Projeção financeira; Avaliação de projetos; Elaboração de planos de negócios; Acompanhamento da gestão; Avaliação e melhoramento de processos; Otimização de custos; Apoio no desenho, implementação e controlo de projetos. Serviços de Fiscalidade:
-    ">
+    <meta name="description" content="Serviços de contabilidade: Contabilidade geral e analítica; Reporting e demonstrações financeiras; Análise e controlo de património. Serviços de Consultoria: Projeção financeira; Avaliação de projetos; Elaboração de planos de negócios; Acompanhamento da gestão; Avaliação e melhoramento de processos; Otimização de custos; Apoio no desenho, implementação e controlo de projetos. Serviços de Fiscalidade">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>Contimóvel - Empresa de Contabilidade</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Site.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 2.23.0, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=heading-font">
     <script type="application/ld+json">{
@@ -23,13 +24,14 @@
 		"url": "index.html",
 		"logo": "images/logo.png",
 		"sameAs": []
-}</script>
+    }</script>
     <meta property="og:title" content="Site">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#0e3e7f">
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="index.html">
-		<script type="text/javascript">
+    <script src="./main.js"></script>
+    <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-27510299-1']);
       _gaq.push(['_setDomainName', 'contimovel.pt']);
@@ -41,37 +43,26 @@
       })();
   </script>
 </head>
-  <body data-home-page="index.html" data-home-page-title="Site" class="u-body">
-    <div id="content"></div>
-    <script>
-      window.cookieconsent.initialise({
-       container: document.getElementById("content"),
-       palette:{
-        popup: {background: "#fff"},
-        button: {background: "#aa0000"},
-       },
-       revokable:true,
-       onStatusChange: function(status) {
-        console.log(this.hasConsented() ?
-         'enable cookies' : 'disable cookies');
-       },
-       law: {
-        regionalLaw: false,
-       },
-       location: true,
-      });
-     </script>
-    <header class="u-clearfix u-header u-sticky u-white u-header" id="sec-e84b"><div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
-        <a href="#sec-ff94" class="u-image u-logo u-image-1" title="Home">
-          <img src="images/logo.png" class="u-logo-image u-logo-image-1" data-image-width="239">
-        </a>
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0; text-transform: uppercase; font-weight: 500;">
-            <a class="u-button-style u-custom-active-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs></svg>
+<body data-home-page="index.html" data-home-page-title="Site" class="u-body">
+  <div id="cookies-eu-banner" style="display: none;">
+    Ao continuar a navegação no nosso site, estará a aceitar o uso de cookies do Google Analytics para que sejam geradas estatísticas das visitas
+    <a href="./read-more.html" id="cookies-eu-more">Saber mais</a>
+    <button id="cookies-eu-reject">Rejeito</button>
+    <button id="cookies-eu-accept">Concordo</button>
+  </div>
+  <header class="u-clearfix u-header u-sticky u-white u-header" id="sec-e84b">
+    <div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
+      <a href="#sec-ff94" class="u-image u-logo u-image-1" title="Home">
+        <img src="images/logo.png" class="u-logo-image u-logo-image-1" data-image-width="239">
+      </a>
+      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0; text-transform: uppercase; font-weight: 500;">
+          <a class="u-button-style u-custom-active-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+            <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
+            <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+            </symbol>
+            </defs></svg>
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
@@ -435,5 +426,9 @@
           </div>
         </div>
       </div></footer>
+      <div id="app"></div>
+      <link rel="stylesheet" href="//rawcdn.githack.com/Alex-D/Cookies-EU-banner/2.0.0/css/cookies-eu-banner.default.css">
+      <script src="//rawcdn.githack.com/Alex-D/Cookies-EU-banner/2.0.0/dist/cookies-eu-banner.min.js"></script>
+      <script src="./js/cookiesconcent.js"></script>
   </body>
 </html>
